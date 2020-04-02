@@ -1,4 +1,4 @@
-#When you want to use a text, which wont 
+#When you want to use a text, whith 
 # use the special symbols, it's good to use "r" before them
 txt = r"For new line we use \n and for tab use 't"
 print(txt)
@@ -28,6 +28,9 @@ print(tuple_1[1])
 # KEY : VALUE
 # Key is unmutuble and unique
 
-ex_1 = { "Cofee": "black", "Tea": "green", "Sugar": "no-sugar"}
-print(ex_1[1])
-#Dictionries are not originized, so we can't acces their elements by index
+ex_1 = { "Cofee" : "black", "Tea": "green", "Sugar" : "no-sugar"}
+print(ex_1)
+#Dictionries are not originized, so we can't access their elements by index
+print(ex_1.keys())
+print(list(ex_1.keys()))
+print(ex_1.values())
